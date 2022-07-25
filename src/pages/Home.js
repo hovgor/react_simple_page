@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
-const DashboardPage = () => {
+const HomePage = () => {
     return (
         <div className="App-header">
-            <h1>this is a dashboard page</h1>
+            <h1>this is a home page</h1>
             <h3>login</h3>
             <Link to="/login">Sign in</Link>
             <br/>
@@ -12,4 +12,4 @@ const DashboardPage = () => {
         </div>
     )
 }
-export {DashboardPage}
+export {HomePage}
